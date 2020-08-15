@@ -4,6 +4,9 @@ import java.awt.*;
  * A line segment-shaped Shape
  *
  * Starter Code author: Chris Bailey-Kellogg
+ *
+ * Edited by: Maria Paula Mora
+ * Partner: Lizzie Hernandez
  */
 public class Segment implements Shape {
 	private int x1, y1, x2, y2;		// two endpoints

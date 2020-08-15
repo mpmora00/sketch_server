@@ -3,8 +3,11 @@ import java.awt.Graphics;
 
 /**
  * A geometric entity with a color
- * 
+ *
  * @author Chris Bailey-Kellogg
+ *
+ * Edited by: Maria Paula Mora
+ * Partner: Lizzie Hernandez
  */
 
 public interface Shape {
@@ -22,12 +25,12 @@ public interface Shape {
 	 * @return The shape's color
 	 */
 	public Color getColor();
-	
+
 	/**
 	 * @param color The shape's color
 	 */
 	public void setColor(Color color);
-	
+
 	/**
 	 * Draws the shape
 	 */

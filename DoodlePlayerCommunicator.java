@@ -8,7 +8,7 @@ import java.net.UnknownHostException;
  *
  * Starter Code author: Chris Bailey-Kellogg and Travis Peters
 
- * @author Maria Paula Mora
+ * @editors Maria Paula Mora
  *  Partner: Lizzie Hernandez
  */
 

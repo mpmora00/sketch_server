@@ -8,8 +8,11 @@ import javax.swing.*;
 
 /**
  * A simple JFrame containing a single component for drawing (via the draw method)
- * 
+ *
  * Starter Code author: Chris Bailey-Kellogg
+ *
+ * Edited by: Maria Paula Mora
+ * Partner: Lizzie Hernandez
  */
 
 public class DrawingGUI extends JFrame {
@@ -36,7 +39,7 @@ public class DrawingGUI extends JFrame {
 
 	/**
 	 * Creates a frame and finishes initializing it.
-	 * 
+	 *
 	 * @param title		displayed in window title bar
 	 * @param width		window size
 	 * @param height	window size
@@ -48,7 +51,7 @@ public class DrawingGUI extends JFrame {
 
 	/**
 	 * Finishes initializing the GUI for the fixed size.
-	 * 
+	 *
 	 * @param width		window size
 	 * @param height	window size
 	 */
@@ -62,7 +65,7 @@ public class DrawingGUI extends JFrame {
 				super.paintComponent(g);
 				draw(g);  //our object's drawing method call
 			}
-		};		
+		};
 
 		// Listen for events
 		canvas.addMouseListener(new MouseAdapter() {
@@ -87,7 +90,7 @@ public class DrawingGUI extends JFrame {
 		});
 
 		// Boilerplate to finish initializing the GUI to the specified size
-		setSize(width, height);		
+		setSize(width, height);
 		canvas.setPreferredSize(new Dimension(width, height));
 		getContentPane().add(canvas);
 		setLocationRelativeTo(null);
@@ -100,14 +103,14 @@ public class DrawingGUI extends JFrame {
 	 * Start the timer running.
 	 */
 	public void startTimer() {
-		timer.start();		
+		timer.start();
 	}
 
 	/**
 	 * Stops the timer.
 	 */
 	public void stopTimer() {
-		timer.stop();		
+		timer.stop();
 	}
 
 	/**
@@ -155,7 +158,7 @@ public class DrawingGUI extends JFrame {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param filename	for the image
 	 */
 	public static BufferedImage loadImage(String filename) {
@@ -177,6 +180,6 @@ public class DrawingGUI extends JFrame {
 		}
 		catch (Exception e) {
 			System.err.println("Couldn't save snapshot in `"+filename+"' -- make sure the folder exists");
-		}		
+		}
 	}
 }
