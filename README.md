@@ -1,7 +1,7 @@
 # Sketching through servers
 Applies multi-threaded server and client to connect two (or more computers) in order to draw and send these images, sort of like Google Docs for drawings. After much practice, I collaborated with a peer to create a game similar to the app store game called 'Draw something'.
 
-<img src="screenshot1.png" width="50%" /><img src="screenshot2.png" width="50%" />
+<img src="screenshot2.png" width="50%" /><img src="screenshot1.png" width="50%" />
 
 
 ## Language
